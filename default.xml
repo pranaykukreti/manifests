@@ -4,7 +4,6 @@
     <remote name="yoctoproject" fetch="git://git.yoctoproject.org" />
     <remote name="openembedded" fetch="git://git.openembedded.org" />
     <remote name="linaro" fetch="git://git.linaro.org" />
-    <remote name="epam" fetch="git@git.epam.com" />
 
     <default remote="github" sync-j="10" sync-c="true" />
 
@@ -16,5 +15,5 @@
     <project remote="openembedded" name="meta-openembedded" path="meta-openembedded" upstream="jethro" revision="8ab04afbffb4bc5184cfe0655049de6f44269990" />
     <project remote="linaro" name="openembedded/meta-linaro" path="meta-linaro" upstream="jethro" revision="9b1fd178309544dff1f7453e796a9437125bc0d9" />
     <project remote="github" name="meta-qt5/meta-qt5" path="meta-qt5" upstream="master" revision="c0ba8ab590ba4e17a2a04925cf48915233d4f493" />
-    <project remote="epam" name="org/epmd-aepr" path="epmd-aepr" upstream="master" revision="master" />
+
 </manifest>
